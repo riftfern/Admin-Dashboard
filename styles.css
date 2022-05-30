@@ -3,12 +3,21 @@
 }
 .container{
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: minmax(200px, 1fr) 4fr;
     grid-template-rows: auto 1fr;
     height:100vh;
 }
 .header{
+    display:grid;
+    grid-template-rows: auto auto;
     grid-column:2/4;
+}
+.topRow{
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+}
+.bottomRow{
+    display:grid;
 }
 .sidebar{
     grid-row:1/3;
@@ -16,14 +25,21 @@
 .article{  
     display:grid;
     grid-template-columns:1fr auto;
+    gap:4px;
     
 }
 .projects{
     grid-row:1/3;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-template-rows: auto auto auto;
+    gap:15px;
     
 }
 .trending{
     grid-column: 2/4;
+}
+.card{
+    border-style: solid;
+    border-color: blueviolet;
 }

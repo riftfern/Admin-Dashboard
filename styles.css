@@ -7,9 +7,10 @@
     grid-template-rows: auto 1fr;
     height:100vh;
 }
+
 .header{
     display:grid;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
     grid-column:2/4;
     border-style: groove;
     border-color: blueviolet;
@@ -38,6 +39,8 @@
     grid-template-columns: repeat(2, minmax(100px, 1fr));
     grid-template-rows: auto auto auto;
     gap:15px;
+    margin: 2px;
+
     
 }
 .trending{

@@ -10,17 +10,18 @@
 
 .header{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-column:2/4;
     border-style: groove;
     border-color: blueviolet;
 }
 .topRow{
     display: grid;
-    grid-template-columns: repeat(3, 30px);
+    grid-template-columns: repeat(5,1fr);
 }
 .bottomRow{
     display:grid;
+    grid-template-columns: 1fr 1fr;
 }
 .sidebar{
     grid-row:1/3;

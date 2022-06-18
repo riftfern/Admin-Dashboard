@@ -10,7 +10,10 @@
 <body>
     <div class="container">
         <aside class="sidebar">
-            <div class="dashboard">Dashboard</div>
+            <div class="dashHead">
+                <img src="ufo-outline.svg" alt="a ufo outline" class="ufoOutline">
+                <div class="dashboard">Dashboard</div>
+            </div>
             <div class="home">Home</div>
             <div class="profile">Profile</div>
             <div class="messages">Messages</div>
@@ -23,13 +26,22 @@
         </aside>
         <header class="header">
             <div class="topRow">
-                <input type="text">
-                <div class="notifs">notifications</div>
-                <div class="profileIcon"></div>
-                <div class="fullName">Spiro Agnew</div>
+                <div class="searchBar">
+                    <img src="magnify.svg" alt="a search icon" class="searchIcon">
+                    <input type="text">
+                </div>
+                <div class="rightSearchBar">
+                    <img src="bell-outline.svg" alt="a notification icon" class="notifs">
+                    <img class="profileIcon" src="alien-outline.svg">
+                    <div class="kindVisitor">A Gentle Soul</div>
+                </div>
             </div>
             <div class="bottomRow">
-                <div class="iconGreeting">Hi There</div>
+                <div class="welcomeDiv">
+                    <img src="alien-outline.svg" alt="a nice alien outline" class ="welcomeAlien">
+                    <p class="welcome">Hi There,</p>
+                    <h2 class="iconGreeting">Welcome Visitor!</h2>
+                </div>
                 <div class="buttonGang">
                     <button type="button">New</button>
                     <button type="button">Upload</button>

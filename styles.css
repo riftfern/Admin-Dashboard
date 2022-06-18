@@ -8,6 +8,8 @@
     height:100vh;
 }
 
+/* Header */
+
 .header{
     display:grid;
     grid-template-rows: 1fr 1fr;
@@ -19,15 +21,50 @@
     display: grid;
     grid-template-columns: repeat(5,1fr);
 }
+.searchBar{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rightSearchBar{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .bottomRow{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+.welcomeDiv{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.welcomeAlien{
+    grid-row: 1/3;
+    height: 100px;
+    width:100px;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.searchIcon{
+    width:24px;
+    height: 24px;
+}
+
+/* Sidebar */
+
 .sidebar{
     grid-row:1/3;
     border-style: groove;
     border-color: blueviolet;
 }
+.dashHead{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Article */
+
 .article{  
     display:grid;
     grid-template-columns:1fr auto;

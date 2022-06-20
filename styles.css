@@ -16,6 +16,7 @@
     grid-column:2/4;
     border-style: groove;
     border-color: blueviolet;
+    height: 20vh; 
 }
 .topRow{
     display: grid;
@@ -24,15 +25,51 @@
 .searchBar{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    grid-column: 2/6;
 }
+
+/* Search Bar */
+form.search input[type=text]{
+    padding:10px;
+    font-size:17px;
+    border 1px solid grey;
+    float: left;
+    width: 80%;
+    height: auto;
+    background: #f1f1f1;
+}
+/* submit button */
+form.search button{
+    float: left;
+    width: 20%;
+    height:auto;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+
 .rightSearchBar{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 5/6;
+    align-items: center;
+    justify-content: center;
 }
 .bottomRow{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+.buttonGang{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
 .welcomeDiv{
     display:grid;
     grid-template-columns: 1fr 1fr;

@@ -47,6 +47,7 @@ form.search input[type=text]{
     outline:none;
     border-radius: 25px;
     padding: 0 3.5rem 0 1.5rem;
+    
 }
 /* submit button */
 form.search button{
@@ -80,13 +81,24 @@ form.search button{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+.welcome{
+   margin-bottom: -20px;
+}
 .buttonGang{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: space-evenly;
+    
 }
-
+.bottomBtn{
+    border-radius: 25px;
+    margin:10px;
+    padding:5px;
+}
+.bottomBtn:hover{
+    background-color: #f43f5e;
+}
 .welcomeDiv{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -141,6 +153,9 @@ h2{
     gap:15px;
     margin: 2px;
     margin-bottom: 0px;
+    color: #fff1f2;
+    border-left-color: #fff1f2;
+
     
 }
 .trending{
@@ -148,6 +163,7 @@ h2{
     border-style: groove;
     border-color: blueviolet;
     background-color: #f43f5e;
+    color: #fff1f2;
 }
 .card{
     border-style: groove;
@@ -160,4 +176,5 @@ h2{
     background-color: #f43f5e;
     margin-right:-4px;
     margin-top: 2px;
+    color: #fff1f2;
 }
